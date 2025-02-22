@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+.poster {
+    width: 600px;
+    border: 10px solid black;
+    border-radius: 20px;
+    text-align: center;
+    background-color: black;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+.poster img {
+    width: 100%;
+}
+.main-word {
+    font-size: 32px;
+    font-weight: bold;
+    color: yellow;
+    margin-top: 10px;
+}
+.motiv {
+    color: white;
+    font-size: 18px;
+}
